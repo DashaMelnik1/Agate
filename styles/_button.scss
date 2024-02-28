@@ -1,0 +1,19 @@
+.button--white {
+    @include button($text-color);
+}
+
+.button--black {
+    @include button(#000);
+    &:hover {
+        color: $text-color;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        width: 248px;
+        height: 48px;
+        line-height: 48px;
+        font-weight: 1.7rem;
+    }
+}

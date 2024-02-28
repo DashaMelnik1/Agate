@@ -1,0 +1,22 @@
+.hiding-title {
+    font-size: $title-font;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .hiding-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hiding-title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hiding-title {
+        font-size: 2.5rem;
+    }
+}

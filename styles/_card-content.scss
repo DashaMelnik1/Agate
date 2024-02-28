@@ -1,0 +1,86 @@
+.card-content {
+    margin-top: 35px;
+    &__title {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    &__description {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 23px;
+        color: $gray-color;
+        margin: 15px 0;
+    }
+    &__price {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .card-content {
+        &__description {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .card-content {
+        margin-top: 15px;
+        &__title {
+            font-size: 2.5rem;
+        }
+        &__description {
+            font-size: 1.5rem;
+            line-height: 19px;
+            margin: 15px 0 17px;
+        }
+        &__price {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .card-content {
+        &__description {
+            font-size: 1.9rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-content {
+        text-align: left;
+        max-width: 348px;
+        padding-top: 17px;
+        margin: 0 0 0 24px;
+        &__description {
+            font-size: 2rem;
+            line-height: 25px;
+            margin: 20px 0;
+        }
+        &__price {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .card-content {
+        max-width: 300px;
+        padding: 0;
+        margin: 15px 0 0;
+        &__item-title {
+            font-size: 2rem;
+        }
+        &__item-description {
+            margin: 15px 0;
+            font-size: 1.8rem;
+        }
+        &__item-price {
+            font-size: 1.8rem;
+        }
+    }
+}

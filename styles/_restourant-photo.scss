@@ -1,0 +1,21 @@
+.restourant-photo {
+    padding: 88px 12px;
+}
+
+@media screen and (max-width:1440px) {
+    .restourant-photo {
+        padding: 88px 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .restourant-photo {
+        padding: 75px 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .restourant-photo {
+        padding: 64px 18px;
+    }
+}
